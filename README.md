@@ -5,11 +5,11 @@ An indexer for source code touchpoints. Add the script to your build process/pip
 
     python touchpoints.py marker root extensions description_file output_file
 
-**marker**: a string that denotes a touchpoint, e.g. "TOUCHPOINT:"
-**root**: the root directory of the source tree to search
-**extensions**: the types of files to inspect, e.g. .js .css
-**description_file**: path to JSON description file (if none exists, a new one will be created)
-**output_file**: _optional_ path to touchpoint reference file to create (in Markdown format)
+  * **marker**: a string that denotes a touchpoint, e.g. "TOUCHPOINT:"
+  * **root**: the root directory of the source tree to search
+  * **extensions**: the types of files to inspect, e.g. .js .css
+  * **description_file**: path to JSON description file (if none exists, a new one will be created)
+  * **output_file**: _optional_ path to touchpoint reference file to create (in Markdown format)
 
 Typical usage cycle:
 
