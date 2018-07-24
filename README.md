@@ -1,5 +1,5 @@
 # touchpoints
-An indexer for source code touchpoints. Add the script to your build process/pipeline in order to keep the description file updated and, optionally, to produce a convenient reference to existing and obsolete touchpoints.
+An indexer for source code touchpoints, as described in this article: https://medium.com/@rklazar/touchpoints-smarter-comments-for-maintainable-code-523b62fb88b8. Add the script to your build process/pipeline in order to keep the description file updated and, optionally, to produce a convenient reference to existing and obsolete touchpoints.
 
 ## Usage
 
